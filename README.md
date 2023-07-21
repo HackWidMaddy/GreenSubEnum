@@ -1,6 +1,6 @@
 # Subdomain Enumeration Tool - GreenSubEnum
 
-![Banner](https://i.ytimg.com/vi/DI8-tNq7hFc/maxresdefault.jpg)
+![Banner](https://github.com/greencatcommunity/GreenSubEnum/blob/main/assets/deleteit.JPG)
 
 ## Description
 A simple Python-based subdomain enumeration tool with threading support. This tool allows you to enumerate subdomains for a given domain by making HTTP requests to potential subdomains and checking their status codes. It supports both HTTP (port 80) and HTTPS (port 443) requests to determine if the subdomains exist.
@@ -13,7 +13,7 @@ A simple Python-based subdomain enumeration tool with threading support. This to
    ```
 3. Run the script using the following command:
    ```
-   python subdomain_enumeration.py
+   python main.py
    ```
 4. Enter the domain name when prompted. Make sure to enter a valid domain (e.g., example.com).
 5. Enter the number of threads you want to use for the enumeration. The more threads, the faster the enumeration, but avoid using excessive threads to prevent performance issues.
